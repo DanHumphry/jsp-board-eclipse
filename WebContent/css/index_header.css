@@ -1,0 +1,86 @@
+/* header css*/
+header{
+    z-index: 0;
+}
+body{
+    z-index: 1;
+}
+.header-area{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #8bd6f1;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.header-main{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    padding: 0px 5%;
+    align-items: center;
+    justify-content: flex-end;
+}
+.header-main svg{
+    margin: 4px;
+}
+.header-filter{
+    display: none;
+    /*display: flex;*/
+    margin-right: 2.5%;
+}
+.header-filter input{
+    width: 100px;
+    border: 1px solid #fff;
+    height: 25px;
+    border-radius: 9px;
+}
+.header-filter input:focus{
+    outline: none;
+}
+.header-login{
+    display: flex;
+    margin: 8px;
+}
+.header-login a{
+    color: #fff;
+    margin: 10px;
+}
+@media all and (max-width: 340px) {
+    .header-login{
+        display: block;
+    }
+    .header-login a h3{
+        margin: 0;
+    }
+}
+@media all and (max-width: 425px) {
+    .header-login a{
+        margin: 2px;
+    }
+}
+
+@media all and (min-width: 470px) {
+    .header-filter input{
+        width: auto;
+    }
+}
+.nav-section nav ul li .tab.active{
+    color: rgb(12, 167, 179);
+}
+/* header css*/
+
+
+/* enterChat */
+.enterChat svg{
+    width: 70px;
+    height: 70px;
+}
+.enterChat{
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+}
+/* enterChat */

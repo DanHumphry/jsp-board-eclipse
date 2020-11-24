@@ -1,0 +1,207 @@
+/* 공통 css*/
+body {
+    margin: 0 0 0 0;
+    font-family: Noto Sans DemiLight,AppleSDGothicNeo-Regular,Malgun Gothic,dotum,sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+}
+*, *::after, *::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+div {
+    display: block;
+}
+a {
+    outline: medium none;
+    color: black;
+    text-decoration: none;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+li {
+    float: left;
+    list-style: none;
+}
+main{
+    margin: 0 0 0 0;
+}
+/* 공통 css*/
+
+
+
+/*body css*/
+.main-margin{
+    display: block;
+    margin: 30px 20px 10px 20px;
+    padding: 0 5%;
+}
+.title-logo{
+    text-align: center;
+    margin-top: 90px;
+    font-size: x-large;
+    font-weight: bold;
+    color: #8bd6f1;
+}
+.nav-section{
+    display: flex;
+    height: 40px;
+    background-color: rgb(188, 234, 115);
+    max-width: 360px;
+    margin: 0 auto;
+    justify-content: center;
+    border-radius: 11px;
+}
+.nav-section nav ul li{
+    justify-content: space-between;
+    margin: 8px 5px 0px 5px;
+}
+.nav-section nav ul li a{
+    font-size: 15px;
+    color: #fff;
+}
+.nav-section nav ul li:hover a{
+    color: #8bd6f1;
+}
+.mainImg-section{
+    display: block;
+    margin: 0 auto 0 auto;
+    padding: 0 20px 0 20px;
+    height: 280px;
+    width: 100%;
+}
+.mainImg-header{
+    display: block;
+    margin: 30px auto 0 auto;
+    height: 30px;
+    max-width: 70%;
+    background-color: rgb(188, 234, 115);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.mainImg-header ul li .circle{
+    border: 1px solid rgb(188, 234, 115);
+    border-radius: 4rem;
+    height: 18px;
+    width: 18px;
+    margin: 6px 0 0 6px;
+}
+.mainImg-body{
+    display: block;
+    margin: 0 auto 0 auto;
+    height: 280px;
+    max-width: 70%;
+    background-color: #8bd6f1;
+    text-align: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.mainImg-body h2{
+    margin: 0;
+    color: #fff;
+}
+.mainImg-body svg{
+    width: 100px;
+    height: 135px;
+    margin-top: 30px;
+}
+@media all and (max-width: 525px) {
+    .mainImg-header{
+        max-width: 90%;
+    }
+    .mainImg-body{
+        max-width: 90%;
+    }
+    .title-logo img{
+        max-width: 320px;
+    }
+}
+/*body css*/
+
+
+
+/*footer css*/
+.trend-section{
+    display: flex;
+    margin-top: 2rem;
+    padding: 0 40px;
+}
+.trend-main{
+    flex: 1 1 0%;
+}
+.trend-main .main-section{
+    display: flex;
+    flex-wrap: wrap;
+}
+.article{
+    width: 44%;
+    background: white;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 4px 16px 0px;
+    margin: 3%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background: rgb(248, 249, 250);
+}
+.arcticle-img{
+    width: 100%;
+    position: relative;
+    padding-top: 52.1921%;
+}
+.arcticle-img img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+.article-content{
+    padding: 1rem;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+}
+.article-content a h4{
+    font-size: 1rem;
+    margin: 0px 0px 0.25rem;
+    line-height: 1.5;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: rgb(33, 37, 41);
+}
+.desc-wrapper{
+    flex: 1 1 0%;
+}
+.desc-wrapper p{
+    margin: 0px 0px 1.5rem;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    height: 3.9375rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: rgb(73, 80, 87);
+}
+@media all and (max-width: 1024px) {
+    .article{
+        width: 93%;
+        margin-top: 30px;
+    }
+}
+/*footer css*/

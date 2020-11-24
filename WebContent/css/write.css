@@ -1,0 +1,249 @@
+*{
+    margin: 0 0 0 0;
+    font-family: Noto Sans DemiLight,AppleSDGothicNeo-Regular,Malgun Gothic,dotum,sans-serif;
+}
+a{
+    text-decoration: none;
+}
+/* write */
+.write-header{
+    margin: 0 0 0 0;
+    width: 100%;
+    height: 50px;
+    background-color: #8bd6f1;
+    text-align: center;
+    color: #fff;
+}
+.write-header h3{
+    padding-top: 15px;
+}
+
+.container-section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+button.transparent-btn{
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+button{
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+}
+.post-title {
+    width: 860px;
+    margin: 18px auto 17px;
+    padding-bottom: 26px;
+    border-bottom: 1px solid rgba(0,0,0,.05);
+}
+article > div.post-title > textarea {
+    display: block;
+    width: 90%;
+    height: 3rem;
+    font-size: 26px;
+    border: none;
+    outline: 0 none;
+    resize: none;
+    color: #202020;
+    line-height: 45px;
+    border-bottom: 1px solid rgba(0,0,0,.05);
+    padding: 14px 10px 10px 10px;
+}
+.post-tag input{
+    display: block;
+    width: 100%;
+    height: 3rem;
+    font-size: 14px;
+    border: none;
+    outline: 0 none;
+    resize: none;
+    color: #202020;
+    line-height: 40px;
+    border-bottom: 1px solid rgba(0,0,0,.05);
+    padding-left: 40px;
+}
+.write-container{
+    flex: 1 1 0%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.016) 0px 0px 8px;
+    height: 100%;
+}
+.write-container form{
+    margin-top: 30px;
+}
+.post-textarea{
+    display: block;
+    height: 480px;
+    font-size: 20px;
+    border: none;
+    outline: 0 none;
+    resize: none;
+    border-width: 1px;
+    width: 854px;
+    margin: 0 auto;
+}
+.post-textarea2{
+    display: block;
+    height: 520px;
+    font-size: 20px;
+    border: none;
+    outline: 0 none;
+    resize: none;
+    border-width: 1px;
+    width: 854px;
+    margin: 0 auto;
+}
+.upButton{
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: #8bd6f1;
+    color: white;
+    border-radius: 4px;
+    padding: 0px 1.125rem;
+    font-size: 1.125rem;
+    width: 151px;
+    height: 30px;
+}
+.img-up input[type="file"] {
+    position: absolute;
+    width: 0;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+}
+/* write */
+
+
+/* footer */
+.post-comment{
+    position: relative;
+    height: 70px;
+    border: 1px solid #e0e0e0;
+    background-color: #fff;
+    width: 858px;
+    margin: 0 auto;
+}
+.exit-btn{
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    font-size: 18px;
+    transform: translateY(-50%);
+}
+.transparent-btn{
+    color: #0095f6;
+    font-size: 18px;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/* footer */
+
+
+
+/* preview */
+.img-preview{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.img-preview img{
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    width: 860px;
+}
+.img-preview svg{
+    position: absolute;
+}
+.file-{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 17px;
+}
+/* preview */
+
+
+/* 추가된부분 */
+.list-sort{
+    width: 140px;
+    height: 30px;
+    border: 1px solid #e9e9e9;
+}
+.write-select{
+    display: flex;
+    justify-content: space-between;
+    width: 860px;
+    height: 30px;
+    margin: 0 auto;
+    position: relative;
+}
+.post-title input{
+    display: block;
+    width: 99%;
+    height: 56px;
+    border: none;
+    font-size: 30px;
+    color: #202020;
+    font-family: Noto Sans DemiLight,AppleSDGothicNeo-Regular,Malgun Gothic,dotum,sans-serif;
+    resize: none;
+    outline: 0 none;
+    line-height: 40px;
+    overflow: hidden;
+    letter-spacing: -.4px;
+}
+.write-border{
+    width: 860px;
+    margin: 0 auto;
+}
+.write-border form{
+    margin-top: 45px;
+}
+
+@media all and (max-width: 860px) {
+    .write-select{
+        width: 320px;
+    }
+    .img-preview img{
+        width: 320px;
+    }
+    .post-comment{
+        width: 320px;
+    }
+    .post-textarea{
+        width: 320px;
+    }
+    .post-textarea2{
+        width: 320px;
+    }
+    .post-title{
+        width: 320px;
+    }
+    .write-border{
+        width: 320px;
+    }
+}
+/* 추가된부분 */

@@ -1,0 +1,310 @@
+/* header section*/
+.board-container{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.content-left{
+    margin-top: 30px;
+}
+.post-page{
+    padding: 5px;
+}
+.entry-header{
+    overflow: hidden;
+    display: flex;
+}
+.entry-header h1{
+    font-size: 20px;
+    margin-top: 0;
+    padding-top: 0;
+    display: flex;
+    margin-right: 5%;
+}
+.header-underline{
+    width: 20%;
+    height: 2px;
+    position: absolute;
+    bottom: 0px;
+    background: rgb(52, 58, 64);
+}
+.entry-content{
+    margin: 1em 0 0;
+    line-height: 20px;
+    text-align: center;
+}
+.content-list{
+    display: inline-block;
+    zoom: 1;
+    margin: 0;
+    width: 100%;
+    max-width: 860px;
+}
+.list-header{
+    float: left;
+    display: table;
+    padding-bottom: 15px;
+    width: 100%;
+}
+.board-sort{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.list-header2{
+    padding-bottom: 15px;
+    width: 100%;
+    text-align: right;
+}
+.board-sort2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.board-sort form{
+    display: inline;
+}
+.list-sort{
+    display: inline;
+    margin: 0;
+    padding: 0;
+    min-width: 0;
+    max-width: none;
+    height: 30px;
+    line-height: 26px;
+    font-size: 12px;
+    color: #666666;
+    border-radius: 0;
+    border: 1px solid #f1f1f1;
+    background: white;
+    vertical-align: middle;
+    box-shadow: none;
+    box-sizing: content-box;
+    text-indent: 0;
+}
+/* header section*/
+
+
+
+/* table section*/
+.board-list{
+    float: left;
+    width: 100%;
+}
+.board-list table{
+    display: table;
+    table-layout: fixed;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border: 0;
+    font-size: 13px;
+    border-collapse: collapse;
+}
+.board-list table thead{
+    background-color: #8bd6f1;
+}
+.board-list table .title{
+    width: auto;
+    text-align: center;
+}
+.board-list table .user{
+    width: 80px;
+    text-align: center;
+}
+.board-list table .num{
+    width: 55px;
+    text-align: center;
+}
+.board-list table .date{
+    width: 80px;
+    text-align: center;
+}
+.board-list table .view{
+    width: 55px;
+    text-align: center;
+}
+.board-list table thead tr td{
+    font-weight: bold;
+    color: #545861;
+    border: 0;
+    border-bottom: 2px solid #f1f1f1;
+}
+.board-list table td{
+    padding: 10px 0;
+    height: auto;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 13px;
+}
+.board-list table tbody tr td{
+    word-break: break-all;
+    border: 0;
+    border-bottom: 1px solid #f1f1f1;
+}
+.board-list table tbody tr .title{
+    text-align: left;
+}
+/* table section*/
+
+
+
+/* paging section*/
+.pagination{
+    float: left;
+    padding: 15px 0;
+    width: 100%;
+}
+.pagination ul{
+    display: flex;
+    padding: 0;
+    width: 160px;
+    list-style: none;
+    text-align: center;
+    border: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pagination ul li{
+    display: inline-block;
+    zoom: 1;
+    margin: 0;
+    padding: 0 1px;
+    background: none;
+    border: 0;
+    list-style: none;
+    background-color: #f9f9f9;
+}
+.pagination a{
+    display: block;
+    margin: 0;
+    padding: 0 11px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+    border: 0;
+    box-shadow: none;
+    transition-duration: 0.3s;
+    z-index: 2;
+}
+.pagination ul .active{
+    background-color: #8bd6f1;
+    z-index: 3;
+}
+/* paging section*/
+
+
+
+/* search section*/
+.search{
+    float: left;
+    padding-bottom: 15px;
+    width: 100%;
+    text-align: center;
+}
+.search select{
+    display: inline;
+    margin: 0;
+    padding: 0 5px;
+    width: 80px;
+    height: 26px;
+    min-height: 0;
+    font-size: 13px;
+    color: #666666;
+    border-radius: 0;
+    border: 1px solid #f1f1f1;
+    background: white;
+    line-height: 26px;
+    vertical-align: middle;
+    box-shadow: none;
+    box-sizing: content-box;
+}
+option {
+    font-weight: normal;
+    display: block;
+    white-space: pre;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+.search input{
+    display: inline;
+    margin: 0;
+    padding: 0 5px;
+    width: 150px;
+    height: 26px;
+    min-height: 0;
+    font-size: 13px;
+    color: #666666;
+    border-radius: 0;
+    border: 1px solid #f1f1f1;
+    background: white;
+    line-height: 26px;
+    vertical-align: middle;
+    box-shadow: none;
+    box-sizing: content-box;
+}
+.searchADNcontrol{
+    position: relative;
+    display: inline-block;
+    zoom: 1;
+    margin: 0;
+    padding: 0 10px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 13px;
+    font-weight: normal;
+    letter-spacing: normal;
+    color: white !important;
+    background: #8bd6f1 !important;
+    border: none;
+    border-radius: 0;
+    text-decoration: none !important;
+    cursor: pointer;
+    vertical-align: middle;
+    text-shadow: none;
+    box-shadow: none;
+    transition-duration: 0.3s;
+    box-sizing: content-box;
+}
+.control{
+    display: inline;
+    text-align: right;
+}
+/* search section*/
+
+
+/* th media */
+@media all and (max-width: 490px){
+    .board-list table .num{
+        width: 25px;
+    }
+    .board-list table .view{
+        width: 32px;
+    }
+    .board-list table{
+        font-size: 10px;
+    }
+    .board-list table td{
+        font-size: 11px;
+    }
+    .location{
+        width: 90px;
+    }
+    .board-list table .date{
+        width: 58px;
+    }
+    .board-list table .user{
+        width: 65px;
+    }
+    .post-page{
+        padding: 0px;
+    }
+    .board-container{
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+}
+/* th media */

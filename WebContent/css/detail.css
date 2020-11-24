@@ -1,0 +1,422 @@
+body{
+    text-align: -webkit-center;
+}
+.detail-container{
+    padding: 20px;
+    margin-bottom: 20px;
+    /* background-color: #f8f8f8; */
+    border-bottom: 1px solid rgba(128, 127, 127, 0.534);
+    margin: 10px 10px 10px 10px;
+    max-width: 860px;
+    text-align: start;
+}
+.detail-title{
+    max-height: 100px;
+    background-color: #fff;
+}
+.title-h2{
+    font-size: 22px;
+    margin-top: 25px;
+}
+hr{
+    margin-top: 5px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+.detail-userInfo{
+    color: #333;
+    border-color: #ddd;
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.detail-userInfo .userName{
+    font-size: 14px;
+    color: #2a6496;
+}
+.detail-userInfo p{
+    margin-top: 0;
+    margin-bottom: 3px;
+    display: block;
+    font-size: 12px;
+}
+.detail-userInfo svg{
+    width: 22px;
+    height: 15px;
+}
+.pull-right{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+.content-count{
+    float: left;
+    width: 50px;
+    display: block;
+}
+.content-count p{
+    text-align: center;
+}
+.detail-dec{
+    padding: 15px;
+    width: 100%;
+    margin: 0;
+    background-color: #fff;
+}
+.detail-button{
+    padding: 10px;
+    height: 100%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    max-width: 860px;
+}
+.detail-button button{
+    position: relative;
+    display: inline-block;
+    zoom: 1;
+    margin: 0;
+    padding: 0 10px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 13px;
+    font-weight: normal;
+    letter-spacing: normal;
+    color: white !important;
+    background: #8bd6f1 !important;
+    border: none;
+    border-radius: 0;
+    text-decoration: none !important;
+    cursor: pointer;
+    vertical-align: middle;
+    text-shadow: none;
+    box-shadow: none;
+    transition-duration: 0.3s;
+    box-sizing: content-box;
+}
+.detail-auto{
+    text-align: -webkit-center;
+}
+.detail-auto{
+    text-align: -webkit-center;
+}
+
+/*aside*/
+.detail-container{
+    position: relative;
+}
+aside{
+    position: absolute;
+    left: -5.5rem;
+}
+.aside-container {
+    width: 4rem;
+    background: rgb(248, 249, 250);
+    border: 1px solid rgb(241, 243, 245);
+    border-radius: 2rem;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.svg-circle{
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background: white;
+    border: 1px solid rgb(173, 181, 189);
+    border-radius: 1.5rem;
+    color: rgb(134, 142, 150);
+    cursor: pointer;
+    z-index: 5;
+}
+.svg-circle svg{
+    width: 24px;
+    height: 24px;
+}
+.like-count{
+    margin-top: 0.5rem;
+    color: rgb(73, 80, 87);
+    line-height: 1;
+    font-size: 0.75rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+.mobile-like-count{
+    display: none;
+}
+
+@media all and (max-width: 1064px){
+    aside{
+        display: none;
+    }
+    .mobile-like-count{
+        display: flex;
+    }
+    .mobile-like-button{
+        background: white;
+        border: 1px solid rgb(173, 181, 189);
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        height: 1.5rem;
+        border-radius: 0.75rem;
+        outline: none;
+        cursor: pointer;
+    }
+    .mobile-like-button svg{
+        width: 0.75rem;
+        height: 0.75rem;
+        margin-right: 0.75rem;
+        color: rgb(173, 181, 189);
+    }
+    .mobile-like-button span{
+        font-size: 0.75rem;
+        font-weight: bold;
+        color: rgb(173, 181, 189);
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+/*aside*/
+
+
+/*comment*/
+.commnet-container{
+    max-width: 860px;
+    padding: 10px;
+}
+.comment-count{
+    margin: 0;
+    border-bottom: 1px solid black;
+    float: left;
+    margin-bottom: 1rem;
+}
+.comment-count h4{
+    margin: 0;
+}
+.commnet-container table{
+    width: 100%;
+    max-width: 840px;
+    border-bottom: 0.5px solid rgb(211, 211, 211);
+    padding-bottom: 15px;
+}
+.commnet-container table tbody{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 5px 10px 5px;
+    padding: 0 10px 5px 10px;
+}
+.commnet-container table tfoot .cmt-content{
+    display: block;
+    padding: 13px 25px 13px 25px;
+    margin-bottom: 15px;
+}
+.right-info{
+    display: inline-block;
+    margin-left: 7px;
+    cursor: pointer;
+}
+.commnet-container table tbody .left-info-nick{
+    display: block;
+    font-weight: bold;
+    color: cornflowerblue;
+    margin-right: 8px;
+}
+.comment-txt textarea{
+    resize: none;
+    padding: 1rem 1rem 1.5rem;
+    outline: none;
+    border: 1px solid rgb(233, 236, 239);
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    border-radius: 4px;
+    min-height: 6.125rem;
+    font-size: 1rem;
+    color: rgb(33, 37, 41);
+    line-height: 1.75;
+    max-width: 840px;
+}
+.comment-button{
+    max-width: 840px;
+    text-align: left;
+}
+.comment-button button{
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: #8bd6f1;
+    color: white;
+    border-radius: 4px;
+    padding: 0px 1.25rem;
+    height: 2rem;
+    font-size: 1rem;
+}
+
+.reComment-txt textarea{
+    resize: none;
+    padding: 1rem 1rem 1.5rem;
+    outline: none;
+    border: 1px solid rgb(233, 236, 239);
+    border-radius: 4px;
+    min-height: 6.125rem;
+    font-size: 1rem;
+    color: rgb(33, 37, 41);
+    line-height: 1.75;
+    width: 100%;
+}
+.reComment-txt{
+    width: 90%;
+}
+.reComment-button .reCmtBtn{
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: #8bd6f1;
+    color: white;
+    border-radius: 4px;
+    height: 2rem;
+    font-size: 1rem;
+    margin-left: 0px;
+}
+.hiddenReCmt{
+    display: none;
+    padding: 0px 25px;
+    margin-top: 15px;
+}
+.reCmtCnt{
+    margin: 0px 25px -1px 25px;
+    padding: 10px 20px;
+    display: block;
+    border: 1px solid gray;
+    background-color: rgb(248, 249, 250);
+    position: relative;
+}
+.reCmtCnt-date{
+    display: inline-block;
+    width: 75%;
+}
+.reCmtCnt-right-info{
+    display: inline-block;
+    margin-left: 7px;
+    cursor: pointer;
+    position: absolute;
+}
+.reCmtCnt-content{
+    display: block;
+    padding: 12px;
+    margin-top: 5px;
+}
+
+/*comment*/
+
+
+/* detail profile-Img */
+.board-profileImg{
+    display: block;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.pull-left{
+    display: flex;
+}
+.board-profileImg-section{
+    margin-right: 12px;
+}
+/* detail profile-Img */
+
+
+
+/* fix comment */
+.fix-comment-txt textarea{
+    resize: none;
+    padding: 1rem 1rem 1.5rem;
+    outline: none;
+    border: 1px solid rgb(233, 236, 239);
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    border-radius: 4px;
+    min-height: 6.125rem;
+    font-size: 1rem;
+    color: rgb(33, 37, 41);
+    line-height: 1.75;
+    max-width: 840px;
+}
+.fix-comment-button button{
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: #8bd6f1;
+    color: white;
+    border-radius: 4px;
+    padding: 0px 1.25rem;
+    height: 2rem;
+    font-size: 1rem;
+}
+.fix-comment-button{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 5px;
+}
+.reComment-fixTxt{
+    width: 93.5%;
+}
+.reComment-fixTxt textarea{
+    resize: none;
+    padding: 1rem 1rem 1.5rem;
+    outline: none;
+    border: 1px solid rgb(233, 236, 239);
+    border-radius: 4px;
+    min-height: 6.125rem;
+    font-size: 1rem;
+    color: rgb(33, 37, 41);
+    line-height: 1.75;
+    width: 100%;
+}
+.reComment-fixButton button{
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: #8bd6f1;
+    color: white;
+    border-radius: 4px;
+    height: 2rem;
+    font-size: 1rem;
+    margin-left: 2px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.hiddenReCmtFix{
+    padding: 5px 24px;
+    display: block;
+}
+/* fix comment */
+
+@media all and (max-width: 815px) {
+    .reComment-button .reCmtBtn{
+        font-size: 11px;
+    }
+    .reComment-fixButton button{
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,287 @@
+body .container {
+    padding: 0 40px 0px;
+    position: relative;
+    overflow: hidden;
+    width: 360px;
+    height: 480px;
+    margin: 160px auto 0;
+    background: rgba(255, 255, 255, 0.767);
+    -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 30px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 30px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 12px 0px;
+}
+.checkBlock{
+    display: flex;
+}
+.checkButton{
+    height: 33px;
+    margin-left: 5px;
+    background-color: #8bd6f1;
+    border: 0;
+    color: #fff;
+}
+.auto-margin{
+    width: 90%;
+    height: 100%;
+    margin: 20px 20px 20px 20px;
+}
+.profile-title{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.profile-body input{
+    width: 181px;
+    height: 32px;
+    margin-bottom: 28px;
+    display: block;
+}
+.profile-footer button{
+    margin: 0;
+    padding: 0 10px;
+    height: 30px;
+    width: 75px;
+    font-size: 18px;
+    color: white !important;
+    background: #8bd6f1 !important;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    text-align: center;
+}
+.profile-footer{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+body .container .tabs {
+    width: 100%;
+    margin-bottom: 35px;
+    border-bottom: 1px solid #8bd6f1;
+}
+body .container .tabs .tab {
+    display: inline-block;
+    margin-bottom: -1px;
+    padding: 20px 15px 10px;
+    cursor: pointer;
+    letter-spacing: 0;
+    border-bottom: 1px solid #8bd6f1;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    transition: all 0.1s ease-in-out;
+    color: #fff;
+}
+body .container .tabs .tab a {
+    font-size: 11px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(155, 153, 153);
+    transition: all 0.1s ease-in-out;
+}
+body .container .tabs .tab.active a, body .container .tabs .tab:hover a {
+    color: black;
+    font-weight: bold;
+}
+body .container .tabs .tab.active {
+    border-bottom: 1px solid #02057c;
+    color: #02057c;
+}
+
+
+.img-section{
+    margin-top: 3rem;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.img-section .img-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-section .img-area img{
+    object-fit: cover;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    border: 1px solid rgb(233, 236, 239);
+}
+.up-button{
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: #8bd6f1;
+    color: white;
+    border-radius: 4px;
+    padding: 0px 1.25rem;
+    height: 2rem;
+    font-size: 1rem;
+}
+.del-button{
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: none;
+    color: #999999;
+    border-radius: 4px;
+    padding: 0px 1.25rem;
+    height: 2rem;
+    font-size: 1rem;
+}
+.profile-section{
+    margin-top: 4rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    display: block;
+}
+.nickname{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.wrapper{
+    display: flex;
+}
+.title-wrapper{
+    width: 5.5rem;
+    flex-shrink: 0;
+}
+.title-wrapper h3{
+    line-height: 1.5;
+    color: rgb(52, 58, 64);
+    margin: 0px;
+    font-size: 1.125rem;
+}
+.content-wrapper{
+    flex: 1 1 0%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    text-align: center;
+}
+.contents{
+    flex: 1 1 0%;
+    font-size: 18px;
+    color: rgb(73, 80, 87);
+    line-height: 1.5;
+}
+.edit-wrapper{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-left: 1rem;
+}
+.leave{
+    border-top: 1px solid rgb(233, 236, 239);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.leave-button{
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: rgb(255, 107, 107);
+    color: white;
+    border-radius: 4px;
+    padding: 0px 1.25rem;
+    height: 2rem;
+    font-size: 1rem;
+}
+.Chat-container{
+    margin-top: 12rem;
+    text-align: -webkit-center;
+}
+.all-margin{
+    max-width: 460px;
+}
+input[type="file"]{
+    position: absolute;
+    overflow: hidden;
+    width: 0;
+    height: 0;
+    padding: 0;
+    border: 0;
+}
+.img-up {
+    cursor: pointer;
+}
+.contents-input{
+    flex: 1 1 0%;
+    font-size: 1rem;
+    color: rgb(73, 80, 87);
+    line-height: 1.5;
+}
+.fixName-input{
+    width: 120px;
+    border: 1px solid rgb(147, 147, 147);
+    border-radius: 3px;
+    height: 26px;
+    padding: 9px;
+    font-size: 15px;
+}
+.content-wrapper2{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+
+
+/* click active 핵심 */
+.update-button.active{
+    outline: none;
+    padding: 0px;
+    border: none;
+    display: inline;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #999999;
+    text-decoration: underline;
+    background: none;
+    cursor: pointer;
+}
+.update-button{
+    display: none;
+}
+.fix-button.active{
+    outline: none;
+    padding: 0px;
+    border: none;
+    display: inline;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #999999;
+    text-decoration: underline;
+    background: none;
+    cursor: pointer;
+}
+.fix-button{
+    display: none;
+}
+/* click active 핵심 */
